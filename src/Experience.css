@@ -1,9 +1,27 @@
 h2{
-    padding-top: 200px;
-    color: #0da150;
+    padding: 200px 0 30px 0;
+    color: white;
 }
 
 #experience{
-    padding-bottom: 80px;
-    padding-left: 40px;
+    padding-bottom: 30px;
+   
 }
+
+.card h5{
+    color: aliceblue;
+}
+
+a{
+    text-decoration: none;
+    color: #0da150;
+}
+
+@media screen and (min-width: 700px) {
+    #experience {
+        padding-left: 40px;
+    }
+   
+  }
+
+  

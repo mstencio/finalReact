@@ -1,23 +1,23 @@
 h1{
     
     padding-top: 150px;
-    color: white;
+    color: rgb(196, 194, 207);
     font-size: 70px;
 }
 
-#about{
+#about h1 p{
     background-color: #0a192f;
-    padding-left: 40px;
+   
     color: white;
 }
 
 p{
-    color: white;
+    color: rgb(145, 144, 150);
     font-family:Helvetica ;
 }
 
 h4{
-    color: #0da150;
+    color: white;
 }
 .card{
     background-color: #0a192f;
@@ -25,10 +25,18 @@ h4{
 }
 
 img{
-    max-width: 300px;
+    max-width: 250px;
 }
 
 #row{
     margin-top: 150px;
 }
 
+@media screen and (min-width: 700px) {
+    #row {
+        padding-left: 40px;
+    }
+   
+  }
+
+ 

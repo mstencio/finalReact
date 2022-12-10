@@ -1,8 +1,8 @@
 
 
 .footer{
-    margin: 100px 0 100px 0;
-    padding-left: 40px;
+    margin: 100px 0 30px 0;
+   
 }
 
 
@@ -16,7 +16,6 @@ input{
 
 input:hover{
     color: #b5f1d0;
-    border-bottom: 2px;
     border-color: white;
     font-size: 17px;
 
@@ -37,16 +36,20 @@ input:hover{
   }
   
   form{
-    padding-bottom: 20px;
+    padding-top: 20px;
   }
 
   .contact a {
     font-size: 20px;
   }
   
+  .footer p{
+    font-size: 12px;
+    padding-top: 20px;
+  }
 
   @media screen and (min-width: 700px) {
-    .footer {
+    .footer a{
       
       display: none;
     }

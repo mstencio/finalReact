@@ -1,5 +1,5 @@
 import React from 'react'
-import document from './Docs/document.pdf'
+import document from './Docs/resume.pdf'
 import './Header.css'
 
 
@@ -29,11 +29,11 @@ function Header() {
                   </li>
 
                   <li className="nav-item">
-                    <a className="nav-link active" href="#"><h6>Work</h6></a>
+                    <a className="nav-link active" href="#work"><h6>Work</h6></a>
                   </li>
 
-                  <li className="nav-item">
-                    <a className="nav-link active" href="#"><h6>Contact</h6></a>
+                  <li id='contact' className="nav-item">
+                    <a className="nav-link active" href="#contacto"><h6>Contact</h6></a>
                   </li>
 
                  
