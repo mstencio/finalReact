@@ -1,0 +1,56 @@
+
+
+.footer{
+    margin: 100px 0 100px 0;
+    padding-left: 40px;
+}
+
+
+
+input{
+    border: 0;
+    background-color: #0a192f;
+    color: white;
+    font-family: Helvetica;
+}
+
+input:hover{
+    color: #b5f1d0;
+    border-bottom: 2px;
+    border-color: white;
+    font-size: 17px;
+
+}
+
+.contact a {
+    display: inline;
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+    
+  }
+  
+  
+  .contact a :hover {
+    font-size: 22px;
+    color: rgb(79, 231, 130);
+  }
+  
+  form{
+    padding-bottom: 20px;
+  }
+
+  .contact a {
+    font-size: 20px;
+  }
+  
+
+  @media screen and (min-width: 700px) {
+    .footer {
+      
+      display: none;
+    }
+   
+  }
+
+ 

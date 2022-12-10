@@ -1,0 +1,34 @@
+
+
+
+#boton {
+    border-radius: 8px;
+    border-color: rgb(79, 231, 130);
+    padding: 10px;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    color: white;
+    background-color: #0a192f;
+    max-width: 100px;
+  
+  
+  }
+  #boton:hover {
+    color: rgb(79, 231, 130);
+    font-size: 1.1em;
+  }
+ 
+  #navbar{
+  background-color: #0a192f;
+  
+  }
+  h6{
+    color: white;
+    padding: 0 5px 0 5px;
+  }
+
+  h6:hover{
+    font-size: 20px;
+    
+  }

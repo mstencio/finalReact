@@ -1,0 +1,46 @@
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    background-color: #0a192f;
+    position: fixed;
+    height: 100%;
+    padding-top: 100px;
+    
+    
+  }
+  
+  .sidebar a {
+    display: block;
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+    
+  }
+  
+  
+  .sidebar a :hover {
+    font-size: 22px;
+    color: rgb(79, 231, 130);
+  }
+  
+ 
+
+
+
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      
+      display: none;
+    }
+   
+  }
+
+  .sidebar a {
+    font-size: 20px;
+  }
+  
+ .sidebar form{
+  rotate: 90deg;
+  padding: 170px 0 0 30px;
+ }

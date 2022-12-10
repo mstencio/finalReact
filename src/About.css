@@ -1,0 +1,34 @@
+h1{
+    
+    padding-top: 150px;
+    color: white;
+    font-size: 70px;
+}
+
+#about{
+    background-color: #0a192f;
+    padding-left: 40px;
+    color: white;
+}
+
+p{
+    color: white;
+    font-family:Helvetica ;
+}
+
+h4{
+    color: #0da150;
+}
+.card{
+    background-color: #0a192f;
+    max-width: 250px;
+}
+
+img{
+    max-width: 300px;
+}
+
+#row{
+    margin-top: 150px;
+}
+
